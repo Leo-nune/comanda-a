@@ -4,9 +4,9 @@ import { Image, StyleSheet, Text, TextInput, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Image style={styles.imagem} source={require('./assets/burguer.jpg')} />
+      <Image style={styles.imagem} source={require('./assets/kamafigure2.jpg')} />
       <Text>Sistema</Text>
-      <Text style={styles.titulo}>Comanda</Text>
+      <Text style={styles.titulo}>FigureColection</Text>
       <TextInput style={styles.input} placeholder='e-mail' />
       <TextInput style={styles.input} placeholder='senha' secureTextEntry />
       <Text style={styles.botao}>entrar</Text>
